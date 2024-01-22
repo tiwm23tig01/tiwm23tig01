@@ -1,41 +1,52 @@
-body {
-    font-family: 'Courier New', Courier, monospace;
+nav {
+    background-color: #cccbb9;
+    text-align: center;
 }
 
-#nav-menu {
-    margin: 0;
-    padding: 20px;
-    width: 100%;
-    background-color: #b2b580;
+nav a {
+    color: #3a3935;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    float: none;
 }
 
-#nav-menu li {
-    display: inline;
-    padding-right: 90px;
-    padding-left:90px ;
-    margin: 0;
-    width: 100%;
-}
-#nav-menu li a:hover{    
-    font-size: 16px;
+.link:hover {
+    color: #48911e;
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+    float: none;
 }
 
-#nav-menu a:link,
-#nav-menu a:visited {
-    color: #000;
-    background: #b2b580;
+#regionsHome {
+    font-size: bold;
+    text-align: center;
 }
 
-
-
-#nav-menu a:link,
-#nav-menu a:visited {
-    color: #000;
-    background: #b2b580;
-    padding: 20px 40px 4px 10px;
+#imgHome {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
-#titlehome{
-    padding-top: 50px;
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0em;
+    margin-inline-end: 0em;
+    font-weight: bold;
+}
+
+#titlehome {
+    background-color: #48911e;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
 }
 
 /*Slideshow*/
@@ -165,32 +176,6 @@ body {
 
 }
 
-#regions-home {
-    width: 100%;
-    table-layout: fixed;
-    border-collapse: collapse;
-}
-
-#img-norte {
-    background-image: url("/ProjTecInt/images/dluis.jpg");
-    opacity: 0.6;
-}
-
-#img-centro {
-    background-image: url("/ProjTecInt/images/terreirodopaco.jpg");
-    opacity: 0.6;
-}
-
-#img-sul {
-    background-image: url("/ProjTecInt/images/algarve.jpg");
-    opacity: 0.6;
-}
-
-#img-ilhas {
-    background-image: url("/ProjTecInt/images/madeira.jpg");
-    opacity: 0.6;
-}
-
 /*ESTILO DE FORMULARIO OPINIOES*/
 /* Remove outline on all focus */
 *:focus {
@@ -207,11 +192,6 @@ form label {
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 
-/* Spacing */
-h1 {
-    margin: 0;
-    display: inline;
-}
 
 form ul {
     width: 750px;
@@ -409,3 +389,24 @@ form input:required:valid+.hint::before {
 /* change form hint arrow color when valid */
 
 /*FIM FORMULAIO OPINIOES*/
+
+.figureFooter {
+    width: 150px;
+}
+
+img {
+    overflow: clip;
+}
+
+footer {
+    background-color: #3a3935;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: auto;
+    float: none;
+}
+
+.figFooter {}
