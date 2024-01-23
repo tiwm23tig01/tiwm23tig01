@@ -1,3 +1,8 @@
+header{
+    max-width: auto;
+    
+}
+
 nav {
     background-color: #cccbb9;
     text-align: center;
@@ -32,12 +37,7 @@ nav a {
 }
 
 h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0em;
-    margin-inline-end: 0em;
+    display: block;   
     font-weight: bold;
 }
 
@@ -175,6 +175,26 @@ h1 {
     text-decoration: dotted;
 
 }
+#homeIntro{
+    font-size: bold;
+    text-align: center;
+}
+/*Estilos pagina home side-by-side images*/
+.container {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+  }
+
+  .image {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+
+  .textHome {
+    flex: 1; /* This allows the text to take up the remaining space */
+  }
 
 /*ESTILO DE FORMULARIO OPINIOES*/
 /* Remove outline on all focus */
@@ -185,9 +205,14 @@ h1 {
 /* Typographic */
 body {
     font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    padding: 0px;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -10px;
 }
 
-h1,
+
 form label {
     font-family: Georgia, Times, "Times New Roman", serif;
 }
@@ -409,4 +434,3 @@ footer {
     float: none;
 }
 
-.figFooter {}
