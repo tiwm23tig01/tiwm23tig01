@@ -188,6 +188,17 @@ h1 {
     text-decoration: dotted;
 
 }
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    display: table;
+  }
 
 #homeIntro {
     font-size: bold;
@@ -436,6 +447,10 @@ form input:required:valid+.hint::before {
 
 /* change form hint arrow color when valid */
 
+.body-content {
+    width: 60%;
+    margin: auto;
+  }
 /*FIM FORMULAIO OPINIOES*/
 
 

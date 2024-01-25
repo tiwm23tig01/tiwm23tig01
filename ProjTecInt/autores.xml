@@ -1,0 +1,22 @@
+<autores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="autores.xsd">
+
+  <autor>
+    <nome>André Gonçalves</nome>
+    <email>a041002@ipmaia.pt</email>
+    <numero>41002</numero>
+  </autor>
+
+  <autor>
+    <nome>Raquel Allen</nome>
+    <email>a041011@ipmaia.pt</email>
+    <numero>41011</numero>
+  </autor>
+
+  <autor>
+    <nome>Vitor Matos</nome>
+    <email>a040736@ipmaia.pt</email>
+    <numero>40736</numero>
+  </autor>
+
+</autores>
