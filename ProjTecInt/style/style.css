@@ -1,4 +1,11 @@
+header {
+    max-width: auto;
+    margin-top: -20px;
+
+}
+
 nav {
+    margin-top: -21px;
     background-color: #cccbb9;
     text-align: center;
 }
@@ -9,11 +16,11 @@ nav a {
     padding: 10px;
     display: inline-block;
     float: none;
+
 }
 
-.link:hover {
-    color: #48911e;
-    transition: transform 0.3s ease;
+nav a:hover {
+    transition: width 2s;
     transform: scale(1.2);
     float: none;
 }
@@ -33,11 +40,6 @@ nav a {
 
 h1 {
     display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0em;
-    margin-inline-end: 0em;
     font-weight: bold;
 }
 
@@ -53,13 +55,50 @@ h1 {
 * {
     box-sizing: border-box
 }
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 700px;
-    position: relative;
-    margin: auto;
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
 }
+/*Side-by-side slider e texto*/
+.slideshow-boxing {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.slideshowText {
+    flex: 1;
+    margin-left: 40px;
+    /* This allows the text to take up the remaining space */
+} 
+/*Fim side-by-side*/
 
 /* Hide the images by default */
 .mySlides {
@@ -106,32 +145,6 @@ h1 {
     text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-    background-color: #717171;
-}
-
 /* Fading animation */
 .fade {
     animation-name: fade;
@@ -176,6 +189,35 @@ h1 {
 
 }
 
+#homeIntro {
+    font-size: bold;
+    text-align: center;
+}
+#regionsHead{
+    text-align: center;
+}
+
+/*Estilos pagina home side-by-side images*/
+.container {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.image {
+    max-width: 50%;
+    height: auto;
+    margin-right: 20px;
+    
+}
+
+.textHome {
+    flex: 1;
+    /* This allows the text to take up the remaining space */
+}
+/*Fim side-by-side*/
+
+
 /*ESTILO DE FORMULARIO OPINIOES*/
 /* Remove outline on all focus */
 *:focus {
@@ -184,21 +226,28 @@ h1 {
 
 /* Typographic */
 body {
-    font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font: 16px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    padding: 0px;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -10px;
 }
 
-h1,
+
 form label {
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 
 form ul {
-    width: 750px;
+    width: 75%;
     list-style-type: none;
-    list-style-position: outside;
-    margin: 0px;
+    text-align: center;
+    margin-left: auto;
     padding: 0px;
+    border-width: 5px;
+    margin-right: auto;
 }
 
 form li {
@@ -215,7 +264,6 @@ form li:last-child {
 form label {
     width: 150px;
     margin-top: 3px;
-    display: inline-block;
     float: left;
     padding: 3px;
 }
@@ -390,6 +438,7 @@ form input:required:valid+.hint::before {
 
 /*FIM FORMULAIO OPINIOES*/
 
+
 .figureFooter {
     width: 150px;
 }
@@ -399,14 +448,15 @@ img {
 }
 
 footer {
-    background-color: #3a3935;
+    background-color: #1c1c1c;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding-bottom: 10px;
     position: relative;
     bottom: 0;
     width: auto;
     float: none;
 }
-
-.figFooter {}
+#footerBrand{
+    font-size: 12px;
+}
