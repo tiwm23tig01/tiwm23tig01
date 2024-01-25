@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
           const numero = autor.querySelector("numero").textContent;
   
           const row = document.createElement("tr");
-          row.innerHTML = `<td>${nome}</td><td>${email}</td><td>${numero}</td>`;
+          row.innerHTML = `<td>${nome}</td><td><a href="mailto:${email}">${email}</a></td><td>${numero}</td>`;
           tableBody.appendChild(row);
         });
       })

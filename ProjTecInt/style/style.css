@@ -453,7 +453,9 @@ form input:required:valid+.hint::before {
   }
 /*FIM FORMULAIO OPINIOES*/
 
-
+#textTable{
+    text-align: center;
+}
 .figureFooter {
     width: 150px;
 }
