@@ -448,7 +448,7 @@ img {
 }
 
 footer {
-    background-color: #1c1c1c;
+    background-color: #fff;
     color: #fff;
     text-align: center;
     padding-bottom: 10px;
@@ -459,4 +459,5 @@ footer {
 }
 #footerBrand{
     font-size: 12px;
+    color: black;
 }
