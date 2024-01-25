@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    fetch("../autores.xml")
+    fetch("autores.xml")
       .then((response) => response.text())
       .then((data) => {
         const parser = new DOMParser();
