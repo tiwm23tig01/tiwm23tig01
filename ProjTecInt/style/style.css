@@ -6,12 +6,12 @@ header {
 
 nav {
     margin-top: -21px;
-    background-color: #cccbb9;
+    background-color: #78deef;
     text-align: center;
 }
 
 nav a {
-    color: #3a3935;
+    color: #ffffff;
     text-decoration: none;
     padding: 10px;
     display: inline-block;
@@ -44,7 +44,7 @@ h1 {
 }
 
 #titlehome {
-    background-color: #48911e;
+    background-color: #50b8d0;
     color: #fff;
     text-align: center;
     padding: 40px;
@@ -210,12 +210,14 @@ table {
 
 /*Estilos pagina home side-by-side images*/
 .container {
+    
     display: flex;
     align-items: center;
     margin-left: 8px;
 }
 
 .image {
+    border: 8px solid rgb(114, 114, 114);
     max-width: 50%;
     height: auto;
     margin-right: 20px;
@@ -486,6 +488,7 @@ footer {
         display: none;
     }
     .image{
+        border: 8px solid red;
         display:none;
     }
   }
